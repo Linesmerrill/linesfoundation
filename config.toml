@@ -1,5 +1,5 @@
 title = "Airspace for Hugo"
-baseURL = "https://linesfoundation.com"
+baseURL = "https://linesmerrill.github.io/linesfoundation/"
 languageCode = "en-us"
 theme = "airspace-hugo"
 
