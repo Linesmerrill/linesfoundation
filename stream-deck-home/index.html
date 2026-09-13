@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stream Deck Home</title>
+  <style>
+    :root { color-scheme: light dark; --fg: #1d1f23; --muted: #5d6470; --bg: #fafaf7; --accent: #148f7a; }
+    @media (prefers-color-scheme: dark) { :root { --fg: #e8e9eb; --muted: #a3a9b3; --bg: #141619; --accent: #2fd3b5; } }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, system-ui, "Segoe UI", sans-serif; }
+    main { max-width: 38rem; margin: 0 auto; padding: 4rem 1.25rem; }
+    h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .5rem; }
+    p.lede { color: var(--muted); margin-top: 0; }
+    a { color: var(--accent); }
+    footer { margin-top: 3rem; color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Stream Deck Home</h1>
+    <p class="lede">A small personal project that puts the house's smart devices on an Elgato Stream Deck.</p>
+    <p>Each key shows a device's live state and switches it with one press — a Kasa smart plug on or off,
+      or a Nest thermostat off and back to the mode it was in. It runs only on the owner's own Mac and
+      controls only the owner's own devices.</p>
+    <p>It is not a public service: there are no accounts to create and nothing to sign up for.</p>
+    <footer>
+      <a href="privacy.html">Privacy policy</a>
+    </footer>
+  </main>
+</body>
+</html>
